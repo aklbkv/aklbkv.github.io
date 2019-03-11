@@ -87,7 +87,7 @@ header nav{
     align-items: center;
     color: #fff;
     overflow: hidden;
-    border-radius: 7px;
+    border-radius: 3px;
      transform: translateZ(50px);
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
 
@@ -105,28 +105,12 @@ header nav .btn-right{
 	border-radius: 50%;
 	background: linear-gradient(to left ,#0081be, #00b3d6);
 	margin-left: 10px;
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-}
-
-
-
-
-@media (max-width: 1000px){
-	header nav,.menu,.user-info{
-		width: 100%;
-	}
-
-	.menu{
-		top: 0;
-	}
-	.menuactive{
-        margin-top: 0;
-    }
 }
 
 
@@ -223,11 +207,3 @@ header nav .btn-right{
     flex-direction: column;
     height: 600px;
 }
-@media (min-width: 1000px){
-	.main{
-		width: 1000px;
-	}
-}
-@media (max-width: 500px){
-	
-	}
