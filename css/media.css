@@ -25,6 +25,9 @@
 		width: 40px;
 		height: 40px;
 	}
+	.lines,.lines:after,.lines:before{
+		height: 3px;
+	}
 
 	hearder nav {
 		border-radius: 3px;
