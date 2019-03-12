@@ -24,7 +24,7 @@ $(document).ready(function(){
             document.getElementById("header").style.top = "0";
 
       } else {
-            document.getElementById("header").style.top = "-7vh";
+            document.getElementById("header").style.top = "-100px";
             lines.removeClass("lineactive");
             userinfo.removeClass("useractive");
             menu.removeClass("menuactive");

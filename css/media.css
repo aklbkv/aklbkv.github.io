@@ -27,6 +27,7 @@
 	}
 	.lines,.lines:after,.lines:before{
 		height: 3px;
+		width: 22px;
 	}
 
 	hearder nav {
